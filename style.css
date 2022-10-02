@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    padding: 1.5rem 10rem;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(94, 168, 238,0.2);
+}
+.container #logo{
+    font-size: 2rem;
+}
+ nav ul li a:hover{
+    color: black;
+    font-size: 1.2rem;
+    border-bottom: 0.4rem solid rgb(94, 168, 238);
+    transition: border-bottom 0.3s;
+ }
+ nav ul li a{
+    font-size: 1rem;
+
+ }
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.home{
+    background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) center center;
+    min-height: 40rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: contain;
+     text-align: center;
+     margin-top: 1rem;
+     /* align-items: center; */
+     
+}
+h1{
+    color: rgb(10, 128, 238);
+    padding-top: 20rem;
+    font-size: 40px;
+}
+.aboutFathi{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 1.5rem;
+}
+.aboutandimage{
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    flex-direction: row-reverse;
+    background-color: rgb(94, 168, 238);
+    padding: 3rem 1rem;
+    border-radius:1rem;
+    color: white;
+    /* height: 30rem; */
+}
+.aboutandservices{
+    display: flex;
+    margin: 5rem 10rem;
+    gap: 2rem;
+    /* background-color: ; */
+}
+img{
+    object-fit: cover;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color:  rgb(94, 168, 238);
+}
+.services ul{
+    display: grid;
+    list-style:square;
+}
+.services{
+    color:  rgb(2, 128, 247);
+    padding: 3rem 5rem;
+    border-radius:1rem;
+    background-color:rgba(94, 168, 238, 0.2)
+}
